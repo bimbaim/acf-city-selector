@@ -1,0 +1,153 @@
+/**
+ *  CSS for the ACF Faculty Selector plugin
+ *  Version: 1.0
+ */
+
+/* edit post screens */
+/* v4 */
+
+.field_type-acf_faculty_selector .dropdown-box {
+    margin-bottom: 1em;
+}
+
+.field_type-acf_faculty_selector span.acf-input-header {
+    display:       block;
+    margin-bottom: 10px;
+}
+
+/* v5 */
+.acf-field-acf-faculty-selector .dropdown-box {
+    margin-bottom: 1em;
+}
+
+.acf-field-acf-faculty-selector span.acf-input-header {
+    display:       block;
+    margin-bottom: 10px;
+}
+
+
+/* admin pages */
+.admin_left, .admin_right {
+    padding:               20px;
+    border:                1px solid #cccccc;
+    -moz-border-radius:    8px;
+    -webkit-border-radius: 8px;
+}
+
+.admin_left {
+    float:        left;
+    width:        60%;
+    margin-right: 5%;
+}
+
+.admin_right {
+    float:     left;
+    max-width: 25%;
+}
+
+.acfedu input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.acfedu h2,
+.acfedu h3 {
+    margin: 0 0 1em 0;
+}
+
+.acfedu table.uploaded_files {
+    min-width: 25%;
+    max-width: 50%;
+}
+
+.acfedu th {
+    text-align: left;
+}
+
+.acfedu td {
+    border-top: 1px solid #444444;
+}
+
+.acfedu th,
+.acfedu td {
+    padding: 5px 3em 5px 0;
+}
+
+.acfedu hr {
+    background:    #CCCCCC;
+    width:         100%;
+    height:        1px;
+    border:        0;
+    margin-bottom: 1em;
+}
+
+.acfedu img.donate_img {
+    float:        left;
+    margin-top:   3px;
+    margin-right: 10px;
+}
+
+/* errors */
+.acfedu .error {
+    padding: 10px 0 10px 15px;
+    /*border-left: 4px solid #ffffff;*/
+}
+
+.acfedu .notice-success {
+    border-left-color: #43bc71;
+}
+
+.acfedu .notice-success {
+    border-left-color: #43bc71;
+}
+
+.acfedu .notice-warning {
+    border-left-color: #ff9000;
+}
+
+/* admin menu */
+.acfedu .acfedu-admin-menu a {
+    text-decoration: none;
+}
+
+/* help menus */
+.contextual-help-tabs {
+    width: 170px;
+}
+
+#contextual-help-back {
+    left: 170px;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap h5 {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    margin-bottom: 0.5em;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap h5:first-child {
+    -webkit-margin-before: 0.75em;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap p {
+    -webkit-margin-before: 0;
+    margin: 0.5em 0 0.5em 0;
+}
+
+#contextual-help-columns .contextual-help-sidebar p {
+    /*-webkit-margin-before: 0;*/
+    margin: 1em 0 0.5em 0;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap th,
+#contextual-help-columns .contextual-help-tabs-wrap td {
+    padding: 5px 3em 5px 0;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap th {
+    text-align: left;
+}
+
+#contextual-help-columns .contextual-help-tabs-wrap td {
+    border-top: 1px solid #444444;
+}
+
