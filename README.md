@@ -1,1 +1,1 @@
-# acf-city-selector
+# acf-faculty-selector
